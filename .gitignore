@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables (keep .env.example, ignore the real .env)
+.env
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated certificates (keep the folder via .gitkeep, ignore the PDFs)
+generated_certificates/*
+!generated_certificates/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
